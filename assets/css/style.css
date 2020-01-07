@@ -363,3 +363,28 @@ input[type="submit"] {
     margin-right: 0;
   }
 }
+
+.sidebar {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  float: right;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+/* below selectors were used in Spot-On */
+/* h1,
+  .sidebar,
+  h4  */
+
+.sidebar {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #444444;
+}
