@@ -261,8 +261,8 @@ textarea {
 
 input[type="submit"] {
   background: lightcyan;
-  border: 0 none;
-  color: #fff;
+  border: 1px solid lightgray;
+  color: #999;
   font-size: 18px;
   padding: 10px 30px;
   cursor: pointer;
@@ -372,6 +372,7 @@ input[type="submit"] {
   float: right;
   border: 1px solid #ddd;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 /* below selectors were used in Spot-On */
@@ -388,3 +389,14 @@ input[type="submit"] {
   text-align: center;
   color: #444444;
 }
+
+/* #sb-connect {
+  margin-top: 100px;
+} */
+
+/* #connect {
+  margin-right: 20px;
+  margin-top: 20px;
+
+
+} */
