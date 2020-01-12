@@ -19,6 +19,13 @@ body {
   bottom: 0;
 }
 
+.subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 3.25;
+  margin-top: 50px;
+}
+
 h1,
 h2,
 h3,
@@ -99,7 +106,8 @@ h1 {
 }
 
 a {
-  color: #999;
+  /* color: #999; */
+  color: coral;
   font-weight: 500;
   text-decoration: none;
   font-size: 18px;
@@ -171,12 +179,16 @@ footer {
   color: #ccc;
   font-size: 12px;
   text-align: center;
-  /* position: fixed;
-        left: 0;
+  width: 100%;
+  /* width: 1440px; */
+  /* position: fixed; */
+        /* left: 0;
         bottom: 0; */
 }
 
 /* portfolio */
+
+
 .work {
   width: 274px;
   height: 225px;
@@ -222,6 +234,8 @@ footer {
 #laptop {
   margin-right: 38px;
 }
+
+
 
 /* contact */
 
@@ -390,13 +404,15 @@ input[type="submit"] {
   color: #444444;
 }
 
-/* #sb-connect {
-  margin-top: 100px;
-} */
-
-/* #connect {
-  margin-right: 20px;
-  margin-top: 20px;
-
-
-} */
+.footer {
+  background: #666;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 400px;
+  clear: both;
+  border-top: 8px solid lightcyan;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+} 
