@@ -182,12 +182,11 @@ footer {
   width: 100%;
   /* width: 1440px; */
   /* position: fixed; */
-        /* left: 0;
+  /* left: 0;
         bottom: 0; */
 }
 
 /* portfolio */
-
 
 .work {
   width: 274px;
@@ -207,6 +206,7 @@ footer {
 .work img {
   width: 100%;
   border: 0 none;
+  cursor: pointer;
 }
 
 .work h3 {
@@ -222,6 +222,7 @@ footer {
   line-height: 30px;
   margin-bottom: 0;
   font-weight: 300;
+  cursor: pointer;
   /* margin-left: 0; */
 
   /* margin: 20px; */
@@ -234,8 +235,6 @@ footer {
 #laptop {
   margin-right: 38px;
 }
-
-
 
 /* contact */
 
@@ -415,4 +414,4 @@ input[type="submit"] {
   font-size: 12px;
   text-align: center;
   width: 100%;
-} 
+}
