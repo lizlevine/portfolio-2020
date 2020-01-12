@@ -21,9 +21,9 @@ body {
 
 .subtitle {
   margin: 0;
-  font-size: 30px;
-  line-height: 3.25;
-  margin-top: 50px;
+  font-size: 25px;
+  line-height: 3.75;
+  margin-top: 80px;
 }
 
 h1,
@@ -54,24 +54,6 @@ h2,
 h3 {
   font-size: 22px;
 }
-
-/* below are styles for jr landing pg - format same on this home page */
-/* had to comment out to text orig styles */
-
-/* h1,
-h4,
-h6 {
-  line-height: 24px;
-  text-align: center;
-  color: #444444;
-  font-family: "Julius Sans One", sans-serif;
-}
-h1 {
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-  
-  font-size: 40px;
-} */
 
 /* header */
 
@@ -175,7 +157,6 @@ footer {
   font-size: 12px;
   text-align: center;
   width: 100%;
-
   position: fixed;
   width: 100%;
   bottom: 0px;
@@ -381,7 +362,7 @@ input[type="submit"] {
   float: right;
   border: 1px solid #ddd;
   margin-bottom: 150px;
-  margin-right: 70px;
+  margin-right: 90px;
   line-height: 22px;
   cursor: pointer;
 }
