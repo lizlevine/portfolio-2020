@@ -179,10 +179,11 @@ footer {
   font-size: 12px;
   text-align: center;
   width: 100%;
-  /* width: 1440px; */
-  /* position: fixed; */
-  /* left: 0;
-        bottom: 0; */
+
+  /* position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px; */
 }
 
 /* portfolio */
@@ -412,7 +413,6 @@ input[type="submit"] {
   color: #ccc;
   font-size: 12px;
   text-align: center;
- 
 
   position: fixed;
   width: 100%;
