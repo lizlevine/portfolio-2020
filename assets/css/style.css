@@ -186,6 +186,10 @@ footer {
   cursor: pointer;
 }
 
+.work img:hover {
+  transform: scale(1.25);
+}
+
 .work h3 {
   border-bottom: 0;
   background: lightcyan;
@@ -365,4 +369,8 @@ input[type="submit"] {
   margin-right: 90px;
   line-height: 22px;
   cursor: pointer;
+}
+
+.sidebar img:hover {
+  transform: scale(1.2);
 }
