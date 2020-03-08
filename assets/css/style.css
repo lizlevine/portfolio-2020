@@ -202,10 +202,6 @@ footer {
   transform: scale(1.25);
 }
 
-.work h3:hover {
-  transform: scale(1.25);
-}
-
 .work h3 {
   border-bottom: 0;
   background: lightcyan;
