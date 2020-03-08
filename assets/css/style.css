@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("../images/lilypads.png");
+  /* background-image: url("../images/leather_1.png"); */
   font-size: 18px;
   line-height: 34px;
   /* font-family: "Arial", "Helvetica Neue", Helvetica, Sans-serif; */
@@ -53,6 +53,15 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
+}
+
+.skills {
+  font-weight: bold;
+  color: coral;
+}
+
+#frontEnd {
+  margin-top: 80px;
 }
 
 /* header */
@@ -107,7 +116,7 @@ nav a {
 }
 /* used a pseudostyle here!! */
 nav a:hover {
-  font-size: 18.75px;
+  font-size: 19.75px;
   color: coral;
 }
 
@@ -124,9 +133,12 @@ nav a:first-child {
   padding: 30px;
   margin: 0 0 40px 0;
   width: 100%;
-  max-width: 960px;
+  /* max-width: 960px; */
+  width: 1000px;
+  height: 800px;
   float: left;
   border: 1px solid #ddd;
+  overflow-y: scroll;
 }
 
 .auth-image {
@@ -190,6 +202,10 @@ footer {
   transform: scale(1.25);
 }
 
+.work h3:hover {
+  transform: scale(1.25);
+}
+
 .work h3 {
   border-bottom: 0;
   background: lightcyan;
@@ -203,7 +219,13 @@ footer {
   line-height: 30px;
   margin-bottom: 0;
   font-weight: 300;
+  cursor: pointer;
 }
+
+#safari {
+  margin-left: 35px;
+}
+
 /* created these ids as a fix for odd random spacing/overlap */
 #dog {
   margin-right: 38px;
@@ -226,6 +248,11 @@ footer {
 /* created this id as a "fix" for floating button and footer (footer floats only on this page) */
 #button {
   margin-bottom: 100px;
+}
+
+#button:hover {
+  transform: scale(1.12);
+  background-color: coral;
 }
 
 label,
