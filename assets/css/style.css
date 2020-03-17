@@ -228,8 +228,11 @@ footer {
 }
 
 #train {
-  margin-right: 38px;
-  margin-left: 30px;
+  margin-right: 12px;
+}
+
+#burger {
+  margin-left: 35px;
 }
 
 /* contact */
