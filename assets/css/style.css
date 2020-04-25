@@ -55,6 +55,7 @@ h3 {
   font-size: 22px;
 }
 
+
 .skills {
   font-weight: bold;
   color: coral;
@@ -157,6 +158,10 @@ h2 {
   line-height: 22px;
 }
 
+#footnote {
+  font-size: 26px;
+}
+
 /* footer */
 
 footer {
@@ -199,12 +204,13 @@ footer {
 }
 
 .work img:hover {
-  transform: scale(1.25);
+  transform: scale(1.19);
 }
 
 .work h3 {
   border-bottom: 0;
   background: lightcyan;
+
   /* color: #fff; */
   /* color: #999; */
   text-align: center;
@@ -238,6 +244,10 @@ footer {
   margin-left: 20px;
 }
 
+#wine-h3 {
+  font-size: 18px;
+}
+
 #burger {
   /* margin-right: 20px; */
   margin: 8px;
@@ -246,6 +256,15 @@ footer {
 #gytt {
   margin-right: 15px;
   /* margin: 5px; */
+  height: 200px;
+}
+
+#gytt-h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 18px;
+  z-index: 0;
 }
 
 #kickCovid {
@@ -256,6 +275,10 @@ footer {
 #bamazon {
   margin-left: 20px;
 }
+
+/* #projectFooter {
+  margin-top: 20px;
+} */
 
 /* contact */
 
