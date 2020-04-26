@@ -55,7 +55,6 @@ h3 {
   font-size: 22px;
 }
 
-
 .skills {
   font-weight: bold;
   color: coral;
@@ -181,6 +180,10 @@ footer {
 }
 
 /* projects */
+
+#projectFooter {
+  margin-top: 40px;
+}
 
 .work {
   width: 274px;
