@@ -135,7 +135,6 @@ nav a:first-child {
   width: 100%;
   /* max-width: 960px; */
   width: 1000px;
-  height: 1000px;
   float: left;
   border: 1px solid #ddd;
   overflow-y: scroll;
@@ -181,10 +180,9 @@ footer {
 
 /* projects */
 
-#projectFooter {
-  margin-top: 40px;
-}
-
+/* #project-container {
+  margin-bottom: 40px;
+} */
 .work {
   width: 274px;
   height: 225px;
@@ -227,38 +225,24 @@ footer {
   cursor: pointer;
 }
 
-#safari {
-  /* margin-left: 35px; */
-  margin: 8px;
-  margin-left: 20px;
-}
-
 /* created these ids as a fix for odd random spacing/overlap */
 #dog {
   /* margin-right: 38px; */
-  margin: 8px;
+  /* margin: 8px; */
   margin-left: 15px;
-  margin-right: 20px;
-}
-
-#train {
-  /* margin-right: 12px; */
-  margin: 8px;
-  margin-left: 20px;
+  margin-right: 40px;
 }
 
 #wine-h3 {
   font-size: 18px;
 }
 
-#burger {
-  /* margin-right: 20px; */
-  margin: 8px;
+#wine {
+  margin-bottom: 30px;
 }
 
 #gytt {
   margin-right: 15px;
-  /* margin: 5px; */
   height: 200px;
 }
 
@@ -271,17 +255,30 @@ footer {
 }
 
 #kickCovid {
-  /* margin-right: 38px; */
-  margin: 8px;
+  margin-right: 30px;
 }
 
 #bamazon {
   margin-left: 20px;
 }
 
-/* #projectFooter {
-  margin-top: 20px;
-} */
+#burger {
+  /* margin-right: 20px; */
+  margin: 8px;
+}
+
+#train {
+  /* margin: 15px; */
+  margin: 8px;
+  margin-left: 20px;
+}
+
+#safari {
+  /* margin: 15px; */
+
+  margin: 8px;
+  margin-left: 20px;
+}
 
 /* contact */
 
