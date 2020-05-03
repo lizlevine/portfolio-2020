@@ -180,11 +180,34 @@ footer {
 
 /* projects */
 
-/* #project-container {
-  margin-bottom: 40px;
-} */
+#project-container {
+  /* width: 100%; */
+  /* width: 1800px; */
+  /* margin: 0 auto;
+  clear: both;
+  bottom: 0; */
+}
+
+.flex-container {
+  display: flex;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
 .work {
   width: 274px;
+  /* width: 100%; */
   height: 225px;
   overflow: auto;
   position: relative;
@@ -198,15 +221,25 @@ footer {
   margin-right: 40px;
 }
 
-.work img {
+/* .work img {
+  width: 100%;
+  border: 0 none;
+  cursor: pointer;
+} */
+
+.card-img-top {
   width: 100%;
   border: 0 none;
   cursor: pointer;
 }
 
-.work img:hover {
-  transform: scale(1.19);
+.card-img-top:hover {
+  transform: scale(1.14);
 }
+
+/* .work img:hover {
+  transform: scale(1.19);
+} */
 
 .work h3 {
   border-bottom: 0;
@@ -224,6 +257,8 @@ footer {
   font-weight: 300;
   cursor: pointer;
 }
+
+
 
 /* created these ids as a fix for odd random spacing/overlap */
 #dog {
