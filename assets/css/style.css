@@ -56,13 +56,33 @@ h3 {
 }
 
 .skills {
-  font-weight: bold;
+  font-weight: 800;
   color: coral;
 }
 
 #frontEnd {
   margin-top: 80px;
 }
+
+/* .btn-info,
+.btn-info:hover,
+.btn-info:active {
+  background-color: #8064a2;
+  border: 2px solid #f2dfdf;
+  color: #f2dfdf;
+
+  text-align: center;
+  align-items: center;
+} */
+
+/* #buttons {
+  background-color: lightcyan;
+  border: 2px solid darkgrey;
+  color: ;
+
+  text-align: center;
+  align-items: center;
+} */
 
 /* header */
 
@@ -75,6 +95,7 @@ h3 {
   border-bottom: 2px solid #ccc;
   position: fixed;
   width: 100%;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 #logo {
@@ -87,7 +108,7 @@ h3 {
   /* text-align: center; */
   line-height: 90px;
   color: #999;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 29px;
   text-decoration: none;
 }
@@ -113,6 +134,8 @@ nav a {
   border-left: 1px solid #efefef;
   padding-left: 15px;
   line-height: 18px;
+  font-weight: 800;
+  font-size: 20px;
 }
 /* used a pseudostyle here!! */
 nav a:hover {
@@ -125,9 +148,17 @@ nav a:first-child {
 }
 
 /* main */
+
+#about-container {
+  box-shadow: inset 0 0 10px darkgrey;
+}
 #main-container {
   padding-top: 130px;
 }
+
+/* #about-container {
+  box-shadow: inset 0 0 10px darkgrey;
+} */
 .main-container {
   background-color: #ffffff;
   padding: 30px;
@@ -176,6 +207,7 @@ footer {
   width: 100%;
   bottom: 0px;
   left: 0px;
+  /* box-shadow: inset 0 0 10px darkgrey; */
 }
 
 /* projects */
@@ -204,6 +236,12 @@ footer {
   margin-top: 200px;
   margin-left: 250px;
   margin-bottom: 50px;
+  box-shadow: inset 0 0 10px darkgrey;
+
+  /* width: 250px; */
+  cursor: pointer;
+  border: 3px solid #f2dfdf;
+  /* margin: 0 30px 20px 20px; */
 }
 .work {
   width: 274px;
@@ -257,8 +295,6 @@ footer {
   font-weight: 300;
   cursor: pointer;
 }
-
-
 
 /* created these ids as a fix for odd random spacing/overlap */
 #dog {
