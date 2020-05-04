@@ -64,6 +64,13 @@ h3 {
   margin-top: 80px;
 }
 
+#btn {
+  background-color: lightgrey;
+  height: 30px;
+  width: 40px;
+  color: black;
+}
+
 /* .btn-info,
 .btn-info:hover,
 .btn-info:active {
@@ -272,7 +279,7 @@ footer {
 }
 
 .card-img-top:hover {
-  transform: scale(1.14);
+  transform: scale(1.1);
 }
 
 /* .work img:hover {
