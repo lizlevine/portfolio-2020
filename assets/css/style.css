@@ -64,23 +64,23 @@ h3 {
   margin-top: 80px;
 }
 
-#btn {
+/* #btn {
   background-color: lightgrey;
   height: 30px;
   width: 40px;
   color: black;
-}
+} */
 
-/* .btn-info,
-.btn-info:hover,
-.btn-info:active {
+/.btn-outline-info,
+.btn-outline-info:hover,
+.btn-outline-info:active {
   background-color: #8064a2;
   border: 2px solid #f2dfdf;
   color: #f2dfdf;
 
   text-align: center;
   align-items: center;
-} */
+}
 
 /* #buttons {
   background-color: lightcyan;
@@ -157,7 +157,8 @@ nav a:first-child {
 /* main */
 
 #about-container {
-  box-shadow: inset 0 0 10px darkgrey;
+  box-shadow: inset 0 0 10px lightgray;
+  margin-bottom: 180px;
 }
 #main-container {
   padding-top: 130px;
@@ -201,12 +202,12 @@ h2 {
 /* footer */
 
 footer {
-  background: #666;
+  background: #aaa;
   color: #fff;
   padding: 30px 0;
   clear: both;
   border-top: 8px solid lightcyan;
-  color: #ccc;
+  /* color: #ccc; */
   font-size: 12px;
   text-align: center;
   width: 100%;
@@ -214,21 +215,25 @@ footer {
   width: 100%;
   bottom: 0px;
   left: 0px;
-  /* box-shadow: inset 0 0 10px darkgrey; */
 }
 
 /* projects */
 
 #project-container {
-  /* width: 100%; */
-  /* width: 1800px; */
-  /* margin: 0 auto;
-  clear: both;
-  bottom: 0; */
+  margin-bottom: 100px;
 }
 
 .flex-container {
   display: flex;
+  /* margin-bottom: 70px; */
+}
+
+#bottom-row {
+  margin-bottom: 180px;
+}
+
+#top-row {
+  margin-top: 10px;
 }
 
 .card {
@@ -242,25 +247,22 @@ footer {
   padding-bottom: 20px;
   margin-top: 200px;
   margin-left: 250px;
-  margin-bottom: 50px;
-  box-shadow: inset 0 0 10px darkgrey;
-
-  /* width: 250px; */
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px lightgray;
   cursor: pointer;
   border: 3px solid #f2dfdf;
-  /* margin: 0 30px 20px 20px; */
 }
-.work {
+/* .work {
   width: 274px;
-  /* width: 100%; */
+  
   height: 225px;
   overflow: auto;
   position: relative;
   float: left;
   margin: 20px 0 25px;
   padding-bottom: 0;
-  /* clear: right; */
-}
+  
+} */
 
 .work:nth-child(odd) {
   margin-right: 40px;
@@ -286,12 +288,9 @@ footer {
   transform: scale(1.19);
 } */
 
-.work h3 {
+/* .work h3 {
   border-bottom: 0;
   background: lightcyan;
-
-  /* color: #fff; */
-  /* color: #999; */
   text-align: center;
   position: absolute;
   bottom: 20px;
@@ -301,12 +300,11 @@ footer {
   margin-bottom: 0;
   font-weight: 300;
   cursor: pointer;
-}
+} */
 
 /* created these ids as a fix for odd random spacing/overlap */
-#dog {
-  /* margin-right: 38px; */
-  /* margin: 8px; */
+/* #dog {
+
   margin-left: 15px;
   margin-right: 40px;
 }
@@ -341,51 +339,51 @@ footer {
 }
 
 #burger {
-  /* margin-right: 20px; */
+
   margin: 8px;
 }
 
 #train {
-  /* margin: 15px; */
+
   margin: 8px;
   margin-left: 20px;
 }
 
 #safari {
-  /* margin: 15px; */
+
 
   margin: 8px;
   margin-left: 20px;
-}
+} */
 
 /* contact */
 
-#contact-form ul {
+/* #contact-form ul {
   margin-bottom: 50px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
-}
+} */
 
 /* created this id as a "fix" for floating button and footer (footer floats only on this page) */
-#button {
+/* #button {
   margin-bottom: 100px;
 }
 
 #button:hover {
   transform: scale(1.12);
   background-color: coral;
-}
+} */
 
-label,
+/* label,
 input [type="text"],
 input [type="email"],
 textarea {
   display: block;
   width: 100%;
-}
-input[type="text"],
+} */
+/* input[type="text"],
 input[type="email"],
 textarea {
   height: 35px;
@@ -394,20 +392,20 @@ textarea {
   font-size: 14px;
   width: 100%;
   cursor: pointer;
-}
+} */
 
-textarea {
+/* textarea {
   height: 200px;
-}
+} */
 
-input[type="submit"] {
+/* input[type="submit"] {
   background: lightcyan;
   border: 1px solid lightgray;
   color: #999;
   font-size: 18px;
   padding: 10px 30px;
   cursor: pointer;
-}
+} */
 
 /* MEDIA QUERIES */
 
