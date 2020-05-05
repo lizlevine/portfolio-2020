@@ -14,10 +14,13 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mrs+Saint+Delafield&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
   </head>
   <body>
@@ -25,15 +28,17 @@
       <div class="container">
         <a href="index.html" id="logo">Elizabeth Levine</a>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="projects.html">Portfolio</a>
-          <a href="about.html">About Me</a>
+          <a href="index.html" class="menu">Home</a>
+          <a href="projects.html" class="menu">Portfolio</a>
+          <a href="about.html" class="menu">About Me</a>
 
       
           <!-- <a href="contact.html">Contact</a> -->
         </nav>
       </div>
     </header>
+
+    
     <div class="flex-container" >
     
       <div class="card" style="width: 24rem;">
@@ -44,7 +49,7 @@
             alt="covid-virus"
         /></a>
         <div class="card-body">
-          <h4 class="card-title">Kick-Covid-19</h4>
+          <h3 class="card-title">Kick-Covid-19</h3>
           <p class="card-text"><h5>Tech Includes:</h5> 
             Javascript React.js CSS3 Mongo database Mongoose ODM Express.js
             server Node.js Tailwind CSS JWT token based OAuth Formik Axios
@@ -63,6 +68,19 @@
   
       </div>
          
+      <div class="card" style="width: 24rem;">
+        <a href="https://friendliest-friend-finder.herokuapp.com" target="_blank"></a>
+        <img src="https://nypdecider.files.wordpress.com/2017/04/don-draper-x-marvelous-mrs-maisel.jpg?quality=80&strip=all&w=646&h=431&crop=1" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title">Funny Friend Finder</h3>
+          
+          <p class="card-text"><h5>Tech Includes: </h5>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="https://github.com/lizlevine/friendliest-friend-finder" class="btn btn-outline-info">Github Repo</a>
+        </div>
+      </div>
       
     
       <div class="card" style="width: 24rem;">
@@ -70,7 +88,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-ycUUQ7cRSc1x4PRGV1vYW5y6pbUDGUOcN06CeGRCvRgpNhGe&usqp=CAU" class="card-img-top" alt="spot on rescue" /></a>
         <div class="card-body">
          
-          <h4 class="card-title">Spot On Rescue</h4>
+          <h3 class="card-title">Spot On Rescue</h3>
           <p class="card-text"><h5>Tech Includes: </h5>
           <ul>
             <li>• HTML5</li>
@@ -81,28 +99,12 @@
             <li>• Petfinder API</li>
           </ul>
           </p>
-         
- 
-               
-          <a href="https://github.com/smogil12/Pet-Project" class="btn btn-outline-info">Github Repo</a>
-      
+                   <a href="https://github.com/smogil12/Pet-Project" class="btn btn-outline-info">Github Repo</a>
       </div>
     </div>
     
 
-      <div class="card" style="width: 24rem;">
-        <a href="https://friendliest-friend-finder.herokuapp.com" target="_blank"></a>
-        <img src="https://nypdecider.files.wordpress.com/2017/04/don-draper-x-marvelous-mrs-maisel.jpg?quality=80&strip=all&w=646&h=431&crop=1" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h4 class="card-title">Friendliest Friend Finder</h4>
-          
-          <p class="card-text"><h5>Tech Includes: </h5>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="https://github.com/lizlevine/friendliest-friend-finder" class="btn btn-outline-info">Github Repo</a>
-        </div>
-      </div>
+ 
     </div>
 
     <!-- BOTTOM ROW BELOW -->
@@ -113,7 +115,7 @@
         <a href="https://lizlevine.github.io/trivia-game/" target="_blank"></a>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSc7dT857qIhOo1iEd_FxO-HJCZ7eDDeIxdr9D42KV3VA_eBEiU&usqp=CAU" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h4 class="card-title">Are You a Wine Genius?</h4>
+          <h3 class="card-title">Are You a Wine Genius?</h3>
           <p class="card-text"><h5>Tech Includes: </h5>
           </p>
           <ul>
@@ -130,7 +132,7 @@
         <a href="https://get-your-trip-together.herokuapp.com/" target="_blank"></a>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJO21l61leEKks47REsa2AnU-8g6wSB8fERir8qFCFgC_2c6vG&usqp=CAU" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Get Your Trip Together!!</h5>
+          <h3 class="card-title">Get Your Trip Together!!</h3>
           <p class="card-text"><h5>Tech Includes: </h5>
           </p>
           <ul>
@@ -151,10 +153,8 @@
       <div class="card"  style="width: 24rem;">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKX05zhcMC-OZM2qScw-QRxFMp4us3zpfku-mEShChwVVVMWsT" class=card-img-top alt="..." />
         <div class="card-body" id="bottom">
-          <h5 class="card-title">CLICK | REWARD</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <h3 class="card-title">CLICK | REWARD</h3>
+          <p class="card-text"><h5>Tech Includes: </h5>
           </p>
           <a href="#" class="btn btn-outline-info">Github Repo</a>
         </div>
@@ -319,7 +319,7 @@
             class="social"
             alt="Stack Overflow logo"
         /></a>
-        <div class="container">
+        <div class="copyright">
           &copy; Copyright 2020 Elizabeth Levine
         </div>
     </footer>
