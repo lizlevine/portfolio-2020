@@ -318,6 +318,38 @@ footer {
   /* font-family: "Montserrat", sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+.card-img-top {
+  width: 100%;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.social {
+  /* width: 25px;
+  height: 25px; */
+  margin-top: 1px;
+  padding-right: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+
+}
+.social:last-child {
+  margin-right: 0;
+}
+
+.social:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 /* .work {
   width: 274px;
   
@@ -330,28 +362,18 @@ footer {
   
 } */
 
-.work:nth-child(odd) {
+/* .work img:hover {
+  transform: scale(1.19);
+} */
+
+/* .work:nth-child(odd) {
   margin-right: 40px;
-}
+} */
 
 /* .work img {
   width: 100%;
   border: 0 none;
   cursor: pointer;
-} */
-
-.card-img-top {
-  width: 100%;
-  border: 0 none;
-  cursor: pointer;
-}
-
-.card-img-top:hover {
-  transform: scale(1.1);
-}
-
-/* .work img:hover {
-  transform: scale(1.19);
 } */
 
 /* .work h3 {
@@ -368,45 +390,11 @@ footer {
   cursor: pointer;
 } */
 
-/* created these ids as a fix for odd random spacing/overlap */
-/* #dog {
-  margin-left: 15px;
-  margin-right: 40px;
-}
-#wine-h3 {
-  font-size: 18px;
-}
-#wine {
-  margin-bottom: 30px;
-}
-#gytt {
-  margin-right: 15px;
-  height: 200px;
-}
-#gytt-h3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 18px;
-  z-index: 0;
-}
-#kickCovid {
-  margin-right: 30px;
-}
-#bamazon {
-  margin-left: 20px;
-}
-#burger {
-  margin: 8px;
-}
-#train {
-  margin: 8px;
-  margin-left: 20px;
-}
-#safari {
-  margin: 8px;
-  margin-left: 20px;
-} */
+
+
+
+
+
 
 /* contact */
 
@@ -493,7 +481,7 @@ textarea {
     padding: 20px;
     width: 100%;
   }
-}
+
 .work:nth-child(both) {
   float: right;
 }
@@ -540,20 +528,9 @@ textarea {
     padding: 10px;
   }
 
-  .social {
-    width: 25px;
-    height: 25px;
-    margin-top: 1px;
-    padding-right: 4px;
-    margin-right: 8px;
-    cursor: pointer;
-  }
-  .social:last-child {
-    margin-right: 0;
-  }
-}
+  
 
-.sidebar {
+/* .sidebar {
   background: #fff;
   border-bottom: 2px solid #eee;
   color: #444444;
@@ -567,8 +544,8 @@ textarea {
   margin-right: 90px;
   line-height: 22px;
   cursor: pointer;
-}
+} */
 
-.sidebar img:hover {
+/* .sidebar img:hover {
   transform: scale(1.2);
-}
+} */
