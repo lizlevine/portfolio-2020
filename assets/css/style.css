@@ -20,13 +20,6 @@ body {
   bottom: 0;
 }
 
-.subtitle {
-  margin: 0;
-  font-size: 25px;
-  line-height: 3.75;
-  margin-top: 80px;
-}
-
 h1,
 h2,
 h3,
@@ -63,7 +56,28 @@ h3 {
 }
 
 #frontEnd {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#backEnd {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 18px;
+}
+
+.title {
   margin-top: 80px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 30px;
+  line-height: 3.75;
+  /* margin-top: 80px; */
+  padding-top: 80px;
 }
 
 /* #btn {
@@ -73,22 +87,20 @@ h3 {
   color: black;
 } */
 
-/* .btn-outline-info,
-.btn-outline-info:hover,
-.btn-outline-info:active {
+.btn-info,
+.btn-info:hover,
+.btn-info:active {
   background-color: #8064a2;
   border: 2px solid #f2dfdf;
   color: #f2dfdf;
-
   text-align: center;
   align-items: center;
-} */
+}
 
 /* #buttons {
   background-color: lightcyan;
   border: 2px solid darkgrey;
   color: ;
-
   text-align: center;
   align-items: center;
 } */
@@ -104,9 +116,7 @@ h3 {
 
 /* .navbar {
   height: 80px;
-
 }
-
 .sticky {
   position: fixed;
   top: 0;
@@ -256,8 +266,8 @@ footer {
   /* background: white; */
   background: #dedede;
   /* background: #f2dfdf; */
-  color: #8064a2;
-  /* color: coral; */
+  /* color: #8064a2; */
+  color: coral;
   padding: 30px 0;
   clear: both;
   border-top: 8px solid lightcyan;
@@ -360,24 +370,19 @@ footer {
 
 /* created these ids as a fix for odd random spacing/overlap */
 /* #dog {
-
   margin-left: 15px;
   margin-right: 40px;
 }
-
 #wine-h3 {
   font-size: 18px;
 }
-
 #wine {
   margin-bottom: 30px;
 }
-
 #gytt {
   margin-right: 15px;
   height: 200px;
 }
-
 #gytt-h3 {
   position: absolute;
   bottom: 0;
@@ -385,29 +390,20 @@ footer {
   font-size: 18px;
   z-index: 0;
 }
-
 #kickCovid {
   margin-right: 30px;
 }
-
 #bamazon {
   margin-left: 20px;
 }
-
 #burger {
-
   margin: 8px;
 }
-
 #train {
-
   margin: 8px;
   margin-left: 20px;
 }
-
 #safari {
-
-
   margin: 8px;
   margin-left: 20px;
 } */
@@ -417,7 +413,6 @@ footer {
 /* #contact-form ul {
   margin-bottom: 50px;
 }
-
 #contact-form li {
   margin-bottom: 10px;
 } */
@@ -426,7 +421,6 @@ footer {
 /* #button {
   margin-bottom: 100px;
 }
-
 #button:hover {
   transform: scale(1.12);
   background-color: coral;
