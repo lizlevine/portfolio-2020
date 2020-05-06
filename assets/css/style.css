@@ -31,6 +31,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
+
 h1,
 h2,
 h3 {
@@ -45,6 +46,7 @@ h1 {
   border-bottom: 3px solid #ddd;
   padding-bottom: 20px;
 }
+
 h2,
 h3 {
   font-size: 22px;
@@ -64,20 +66,29 @@ h3 {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-p {
-  font-size: 18px;
+
+.card-text {
+  font-family: "Montserrat", sans-serif; 
 }
 
 .title {
   margin-top: 80px;
+  font-size: 32px;
 }
 
 .subtitle {
   margin: 0;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 3.75;
   /* margin-top: 80px; */
   padding-top: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /* #btn {
@@ -138,27 +149,24 @@ p {
 
 .menu {
   padding-top: 30px;
+  text-decoration: none;
   font-family: "Montserrat", sans-serif;
-}
-.jumbo {
-  text-align: center;
-  padding-top: 70px;
+  border-left: 1px solid #efefef;
 }
 
-.jumbotron-fluid {
-  border: 2px solid #f2dfdf;
+.menu:hover {
+cursor: pointer;
+transform: scale(1.1);
 }
+
 
 #logo {
   width: 400px;
   height: 100px;
   background: lightcyan;
   float: left;
-  /* font-family: "Georgia", Times, Times New Roman, serif; */
   /* font-family: "Julius Sans One", sans-serif; */
-  /* text-align: center; */
   line-height: 90px;
-  /* color: #999; */
   color: coral;
   font-weight: 400;
   font-size: 45px;
@@ -172,6 +180,11 @@ p {
   /* font-family: "Quicksand", sans-serif; */
 }
 
+#logo:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+
 a {
   /* color: #999; */
   color: coral;
@@ -183,6 +196,7 @@ a {
 nav {
   float: right;
   margin-top: 25px;
+ 
 }
 
 nav a {
@@ -201,6 +215,7 @@ nav a:hover {
   font-size: 19.75px;
   color: coral;
   scale: 1.12;
+  text-decoration: none;
 }
 
 nav a:first-child {
@@ -258,14 +273,7 @@ h2 {
   font-weight: 600;
 }
 
-/* #copyright-about {
-  margin-bottom: 50px;
-  font-size: 22px;
-  font-weight: 600;
-} */
-
 footer {
-  /* background: white; */
   background: #dedede;
   height: 150px;
   /* background: #f2dfdf; */
@@ -323,8 +331,6 @@ footer {
 }
 
 
-
-
 .card-img-top {
   width: 100%;
   border: 0 none;
@@ -336,9 +342,7 @@ footer {
 }
 
 .social {
-  /* width: 25px;
-  height: 25px; */
-  margin-top: 1px;
+
   padding-right: 4px;
   margin-right: 8px;
   cursor: pointer;
