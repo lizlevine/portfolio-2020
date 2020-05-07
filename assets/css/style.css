@@ -86,9 +86,9 @@ h3 {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 /* #btn {
@@ -230,6 +230,7 @@ nav a:first-child {
 }
 #main-container {
   padding-top: 130px;
+  margin-bottom: 150px;
 }
 
 .main-container {
@@ -242,6 +243,11 @@ nav a:first-child {
   float: left;
   border: 1px solid #ddd;
   overflow-y: scroll;
+}
+
+#homepage-cont {
+  margin-bottom: 100px;
+  height: 800px;
 }
 
 .auth-image {
