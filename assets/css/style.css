@@ -280,8 +280,10 @@ h2 {
 }
 
 footer {
-  background: #dedede;
-  height: 150px;
+  /* background: #dedede; */
+  background: whitesmoke;
+  /* background:  azure; */
+  height: 140px;
   /* background: #f2dfdf; */
   /* color: #8064a2; */
   color: coral;
@@ -352,7 +354,6 @@ footer {
 }
 
 .social {
-
   padding-right: 4px;
   margin-right: 8px;
   cursor: pointer;
