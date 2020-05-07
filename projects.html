@@ -7,10 +7,20 @@
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Bootstrap -->
     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap"
       rel="stylesheet"
-    />
+    /> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mrs+Saint+Delafield&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
   </head>
   <body>
@@ -18,146 +28,185 @@
       <div class="container">
         <a href="index.html" id="logo">Elizabeth Levine</a>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="projects.html">Projects</a>
+          <a href="index.html" class="menu">Home</a>
+          <a href="projects.html" class="menu">Portfolio</a>
+          <a href="about.html" class="menu">About Me</a>
+
+      
           <!-- <a href="contact.html">Contact</a> -->
         </nav>
       </div>
     </header>
 
-    <div id="main-container" class="container">
-      <section class="main-container" id="project-container">
-        <h2>Projects</h2>
-
-        <div class="work" id="kickCovid">
-          <a href="https://kick-covid19.herokuapp.com" target="_blank">
-            <img
-              src="assets/images/covid19.jpg"
-              class="auth-image"
-              alt="covid virus"
-          /></a>
-
-          <h3>Kick-Covid-19</h3>
-        </div>
-
-        <div class="work" id="dog">
-          <a href="https://smogil12.github.io/Pet-Project/" target="_blank">
-            <img
-              src="assets/images/spot-on-1.png"
-              class="auth-image"
-              alt="Spot On Dog Rescue"
-          /></a>
-
-          <h3>Spot-on Rescue</h3>
-        </div>
-        <div class="work" id="wine">
-          <a href="https://lizlevine.github.io/trivia-game/" target="_blank">
-            <img
-              src="assets/images/trivia-game.png"
-              class="auth-image"
-              alt="Wine Genius Trivia Game"
-          /></a>
-
-          <h3 id="wine-h3">Are you a wine genius?</h3>
-        </div>
-        <div class="work" id="friendlyFF">
+    
+    <div class="flex-container" >
+    
+      <div class="card" style="width: 24rem;">
+        <a href="https://kick-covid19.herokuapp.com" target="_blank">
+          <img 
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBUQEBIVFhUWFRUVFhAVEBAPFRUQFhYWFhUVFRUYHSggGBolGxcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQFy0lHx0tLS0tLSstLS0tLS0tLS0rKy0tLS0tLS0tLS0tLS0tKy0tLy0tKy0tKy0tLSstNy0rK//AABEIAJMBVwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADoQAAEEAAUCAwYFAgUFAQAAAAEAAgMRBAUSITFBURMicQYyYYGRoUKxwdHwFFIVgpLh8SMzYnKTJP/EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAmEQEBAAIBBAEEAgMAAAAAAAAAAQIRAwQSITFBBSIyYRNRFUKh/9oADAMBAAIRAxEAPwD3BCbaEDkJqVAqEiLQKhJaLQKhIhAqE1CBbRaRCBUJEIFRaRCByE1KgVCRCBUJEqAQhCAQhCARaEIFQkQgVCRCBUJEIFQhCAQhCAQhCAQhCCNFptoQOtKmoQORaai0DkJtotAqEiLQKhJaLQKhJaLQKhJaECoSIUhyE1KoCoSIQKhIhAqVNS2gW0JEIFQkQgdaE20qBUJEIFQkSoBCLQgEIQgEIQgLSpEIK4KUFMBS2pD7RaZaW0DkWm2hA60Wm2i0DrRabaLQOtFpqEDrVXFZlDGaklYw9nPa018yjGyuEb3RjU4NcWt7uAND5mlyvs1j8K1gMsgM8riHhzXOfqLtIaW15RxzQ3U6RXZMkBALSCDuCDYI+BS2qGDwbII/CiBAskAuc6r53J4WdiM4lfO7C4VrS6MDxJpNRY2wDpAG5dRHX60aaS6G0trCyzM5TiH4WbQXNaHiRgLQWmtnNJOl2467rZEm5HZRoSotQxzNdelwNGjRBojkGuCpLQOtCbaW0CoSWi0CpU20toFQkQgVCRCgLaVNQgchIhAqEiLQKhJaLQOQktFoFRaS0WgW0JLSIKtpbTLSjdSH2i0qFALRqSIQLaEyx3SoHoTUWpDkWm2i0HIe0OdvwpFNL3PlEbWag0FxsiyeOFLlvtMXSmKaExzBurSS12qPjUx7dnAHY8EdkvtdlIxDC0WDYe2RoBLJW7tdXX07ErFwuNxnitimw7Q2jqnbMKscERuAcL7dL5KtJ4RXVYbNmlzi7sK+F3+ypDLniaSbC4hrPGIL2SRa6cARqabHcmjfP0xM0LiJYonVK+F5Z8HDYH4bu+y5zL5fCwAxkEjxLFQmjfJIWvcH6ZI5I3Gmu32IAPCnSLXp2V5YzDBzy8ySSG3yuoFx6ADoPh/sBV9q84OGiEce+ImOmNo3Oo0C+uzbHzLR1VKLGFzI5Gk6XaHD0dpI+xSYr2qhinEE4JeG+I13hOeA0ktJ1NBLeDZ2G/KjSWbho/DD8G3Dvdi2M1CeOYD3qp5eS0hoLh5d+ve12uBdI2ONspBkoBxHU/zqsnBvwks4xzH27R4epjw5jmgk0a6gk/a+AtHCYkPkcSQAAAN+p3P20/VKQmKzlol8GJjpZALc1paA0be84nbkKfLszbKXNotew0+N1WL442IWHgopsNLOfAdKJH62SRlhuyTpfZBbV88K9kOBkY6XET0JJSDoBsMaOBfU8fRTZEStsOQ2QHgg9Nje45Cy82zAQYZ8x5ryg9XnZg+pCwcmkdgyzxSdM0JlN8iZgL3D/RXzVZE7dpaLWH7MyzOw4kmcS6QlwB6NJ2A+HX5rRx+OZCwySGgPqT0AHUnsmkraW1gZFnUk0j2Sx6Dpa9jevhu41b80W9uVuB29KNB6E3UltAqEiEC2i0iLQOtFptotA60JtotA5CbaLQORabaEDrQmoUCoApWhIxtJyIKhCp5li/DZtybr9/yQGNxwZ5Ru7t29f2UceHkk3e6h2/2VDKWaiXu33XQxkKb4RPLPflvYn7KE4aRvuu/MLbCNAUbTph/1UreRalbmbfxCvutHEwClz2Yx1wp9jbila4W0gjuN0rguKwmbOiks9929HD912kMgc0OHBAIPwKWaJds/FyOH4QfhwfiqTpmO2ewjvYD2/wA68LcfFarvwo/nT9vTtabGOcvw5NjTq73pd8uqysx9kMNK/wAR8YLtrJ1DVXGotI1f5rXSy5eDYr5fz8/RVP8AD3N90uHwBr7cb89N7CtKhn4vDyiPTHGLFaaI0ivv8qWLmmAmfmME0ZexvhPY6Rvh6mOpxbbX3qBJA4I9Nl14MoHQ+o/ZQSYkcPjNfCj8NweN9lOyuV9k4pP6rEmd4E3lEkDY/DYQKDJ27nUHNHNDewei0s0xroMPPKwW5rhQPAsRtBPwF2tZjIXG2nS6iAS2jp5IFiq447Jn+EDS8WJGye+HcGxR442ofJNo+GHFmuMw8DMTJI2RhDC9gZocwPqixwNOAvgj5rfxubP8FzgbGguB7irC5zF+zMxjGH8d4gBHkMbZHBoNhokBuu1jotTGlrYSxlEhulrbs8UBSt4Vm1nH+0MMbY48S1rmvoDUwOaCK3dfA35V3NTh8QxsUpLLNtc1zQ66IOm+bBIPquSzTDvmmwnktjdXiNJAqw0UQdyNiLCoYmKRmJw2FkstZLqikP4odiGk/wBzdNelKNRO3pbcVE3SxppoGw7ACh+io5hlkeIlbI6d2lg8kQDAGyf3nUCHH1CoOP8A1QP/AAca9S3/AHWBjc2lmnMGEka3w2uc59sJfIAaY0Hnfax8fnGk9zrI8vnZjWTavEY6MxvfTGFoFubYHNkjcBa8UlyO7NAH+Y7n7V9VzOS5k6aBkoNEjzDs8bOH1WlgcwbHEXSGrc5xcSAAL0iz6AKLEyqmNn8PMmuc4hjoHE2SGjRrLjX+lWPZvMcRiHyTO8sBNRMLfMQPxE/X6/DeHOMvgxnhvMpbpv3apzHVYv40toOjjjAbQAFADt0CEW2PsWoXY6MSCEuGsiw3qQOqkaKA9Fy2XHxc0nf0ijZGP/Y+YqJE7dbqRagkdVeqxvanNpIBEItOuSVrBqFto83uEk2bdBaLXPS5zNA5gxLGaXuDBLG8nzHi2OFgehK3WvtNaSktFqs3GRl5jDxrAsssagO9dlNqTQfaLTbRagPtJabaS0D7QmWhBWGOj4cdJ7OBb9+FYY8HcEH0NoeAeRarvy+M7gaT3aS38lCFpcz7VTFrx20/qb/RbX9NK33ZL+DgHfdZXtFKBHqnY01wQTVnoVXPOYY3K+ont7rqMbK8+a0abC3IM9ae31XE490NgsoDr0UcMg/A79V5P+b4r57K650OX9vSYc0aequMxY6FeXHMZGdR6K7hc8cR5r+hW+H1Pgym96VvS8kegYnGADlczmeKs7LLnzJ1XuocLjQDb7r0W3H1/T5es4yy6fknwSaEl10u6yZhEEYPOkfTp9lg5fHHO/Zwrr027LpTiI2nTqA24scLr75lNys+2y+YmpVsVjGM25d24r1Kfip6btyeD2HUrFdI1gMkp2G/yUybVyykm6sg4iT8WhvZorb15Ub8pfzrf/8ARyp4X21w10WuA7lv7LdweeYaX3Xt9L3+nK1y4uTD3iw4+q4eT8c5WW6CYcPJ+BAd9+VEZZh77AfTtx1+HZdNpYeCEyTCilltvpzkeJjuneU/EV9elqd+FBFsPzad/lX8rZPzDBNI3CxIMS+B9A2LvT+3Yq/tW+GoGzN/FY7Gnffn52VL4h/EwH0+1X/LWhhy17Q4bh24P5gqU4cfzj5qNp0yHPiOzgR6tsfz1SDBRu90jbseP8vA+i0pMGD/ADf+f8qA5eO38/n7Js0oOyjza9TtVVfl93tVVSqNyGJrPDEMJZd6TGALPWja3BA4cE/p/wAfRMt47H1Ffl/OqbNMDK8sOG8QNDyxztbY9LSGE8hpB3HHbhWn4fxIPDePej0uHYltFbDX92191FLHGetHvZb902aea4XGzmJmAjJEgkc10gNaY2nuON7+g7rs2MLQxmon3RZNk1vZ+OytNyhjXmRjWhzuX6W2fUirUc+El1sdtpaSaBNmwR19VO0ap82aPYC4nYAk+g3UeUe0jZWeM1mzupAaTW3TlUc8he+GRjBTnNIGq2jf4qDJ8IYoGRmrDd6IPm5O6aRuumizRr5GjgAEn8h+aqZtln9RiYJNTHRR6i6M724ihsdisrCyAue4dKbfoLP5rmcFnD3yTPfiHxRh+mNwY1zAeziQa+ynSe52MeUhmO88WuItBidRLYXt5bp4F9DXRdHG63mugC4j2d9oppC9h30GhKAWteO4B4W3g8zLWue7qSb+AVbtMqrlzic1xBO1RxgX1FuJIS4Cdzs0mGo6WxMGmzVkneuEkmIweMAl5IsCWN7o3DuNQoqzk2GwkGp8RJLvee55kcfVxKtUbdDFJbT9FzsWbYt80kbRECw7RPL2ue2veB7fIrXwGIa6O75JWBmMcvmbPCZxZMc0WlsjOwO4IPxCiRa10WX40yM1OYWO4LXdCOx6j4q3awfZp+I8D/8AQCDZrUQXab21VtdLaa5VqYkQmWhA8J4KZSS1USKpmWXxzsMcgtp+SnspC6lW4yzVTLry4XN/ZiON2zXlvoXV61usSTKmjeM0fX9CvUjKOqgmwsMnvMafkF4nUfSbcrlxZ6/V9O3j6zU1lHks8UrXWTfZamCmsNbtZ6cLrsd7N6gdDwB0BaHUubxXs5ionaw0PA/tNH6FeXy9D1En3Yev6dOPNhld7WjC00Hc8p4YDssMTSBx120/2kEKUYx9UPqvLy4cp8ujGzW2hLCwAu49DSzmxufICCb72SVXxs7msAvlaWTOt7fkF6n07jyuXbv24Oo5+zHdddBK4Qt1A+UVf6rns8xeplE/Jb+d40RxBg5dQC4fNMU0vocAL77ouC90t+Hyn1Lrd4XDH3VR0F7Ur+G9m5SLulWwsnmG/VdM3ESdOKXpcmeU9PE4ePGfnWPI7F4Y0JHel39lq4P2mxYHmAPqK/JSMc15/wCr0UsOgigAufO438sXo8OXJPwy/wClfn7ne8yvmqc2JbI6uqsnC2eNlPFl7Qb/ALlhePj+HVOo6jGeV32Wl8rmHi7A/Ol0IXMuwAaLaaoUOm6iws+IaD5ie21hY5cG/ONdPF1/jWUdWWqjiMwaDTRqP2+qynZpIRpd8/ipMHi2A+cfNZXiyjqnU8eXysGed3AA+VphM46g/KlqQYqJ3BClMbDwQqXc9xtNX1WOMU4bOZ9E1+IjOx29dvutZ+FVabBjqE2nSmzDDlp+YP7KQteOt+otVZ8OWbsJHw6KfBY4OOl4p32KKo3zHhzfmD+iifHC7kAeor7hazoAVC/CBNp0yP8ACmBpazYG7HIJ6rIPszG2B+HazyPu/MSbPUav3XRT4Dtt6GlWMUreHE+u6tKrYw8JBNBB4brke0ENdoIsfhvlR5w2R+DcyL/uFlab0m+o9V0Ylf8AiaD6bKCWeM7OaR8gQpHExZjHBgPBYH+Lo0+GYnh2s87V91o+z+DMGDY116383/c7ldE2KJ3uuF+pafoibK9VHUdjY3Bops0q5g+SOEiKi8N8rSasrmsBn+McPLI3xh72Fezwnf5XXuugzzKDOzQ/obD2OLHNI6hYGM9npnlhlmc4MIIPhM17d3N/ZT4Vu3V4LMpnBoeKJ5bzS34pbC5rAg7Ve3UilvYfhUq+K7qQowUKF10pBGngJ1Koj0KOSMqzSaQoSyMSxw4WfJipGro3xWqk+DB6LLkl+F8bPlkRZxXvBWmZqw8FQYrLOyy5sG5vC5MuXkw9xtMca1sSIZdpGgrOm9nIXbseW/O/zUMTXfFSiVwXFyZcXJ5zwbYzLH8cmBn+RPjAdq1NvoN/otP2Zw2qiBuN7V8Yq9nbhWMNOB7oAVul4+PHklw9Kc/3Y6yiH2hwzqDyNguEnZbiu/z/ABNwH0/Vcll2HDnku4AX2XQ5fZbXxn1LDHDn8f0xgwg7LRw2ZytGlXP8MDnNAPcn0ThlrtJdzvQXTcpTjuFnk3LsaS/z9VuQ4Q3bSspmWu1VW/K3MuwrwN3bLDOxpcZLvFdwzWt3cb+Cm1azYFAcJvgBWGClzWSLd+VntGY7IaVoshAFUKVJ46hWYcR3WectdHDde4r4+EE8KvHhARutLEEEWFUEpHRVlum9wwrKxuDLN2lV4cZOwe8T9/zWvK6+VH4TSte7c8kx7fStHn8jR5h+iuRe0jSPMD+arSYRpVWXLwqXDG/DScuUaMuZRuF2qMzgTYKqTYM1QKbhsM/WLT+KfCLz3W66rLMRrYDe42Pqr2lcpA2aPURfPHIKMN7QyWGubv8ARZ3gy+F8Orws8uoMaqYuWNnvH91TlzymnY36LKjx0cjvM7f1Vf48p7jSdRx5equvzWPo0lV5ccw8scPla2MLgYyLFKeTLG1tSruNJ5c610LjyL+OysCEj3XH6qzPlDT0+ypvy0t90kfNTs0a+WUdj6hIzE/3MI9Dah1zMPm8w+hWjhiyTjY9ilRCwPZ3+uyuxkdFnzxAJuHJtQd2q1whVA9w6oUL7bjQlQlVVgkSoUBKTS1PS0ggdEFBLgwVepGlVuMqZWM7AAdFVnwPwW89qgkjtZZcGN+F5yWOYkwxvhSRYchb5woTf6cKnH00xuzkzuU0yJ8KHsLXdVgPy10eoDe12smH2WJiwQV6vS8lx+14P1Hhmu/5jGhicHE1w3ZWobpgrra04apTCBp6Lsyzebhf0oxuvW75Kdjfcb81P/RCqHU2n/0xu/gsrk68JETJDTj8aAVhr9wK5FqIQEAD4qdg3PwCztdOOEqVhFKQRKNjNgFYaNys7W+PGa5lKvIVerZQyQ7qJk1xwZrwVGQVomNMdEp7mvbGeXJPEVmWFVnxq0rPLCELlYwUW9qsyIkrTjZpFK23Ly4yHFoUEmGad6H0UznJhcpjhyinPhBpNrjZ8tIfbSeeF3WId5SuejIJK2w9Mplcd6XMi8SqBK3S+Vo7rKyzFsjO62HZlGRyFxcu+709XoeTCcXnJWOYO4IUn9U0jcKrJioyeicHRkbEfVZ6/TpnPjfWSPFuaRssklzXWPqtJ4F7KOQ/BSt37KyTUN+URHzJrCpI27qDa+0WEIaEKGzYCcEIVVioQhQBKEIQOCRyEIIym0hCgLSQhCFIjkCxcU0WUqFrxe3J1X4q9VwpWlCF3fDwf9lmMqVpQhZV04JQE7QOyRCzrr4zwOE4DYoQs3XieOidXKRCLmPaNlC8coQkWV5FXkaEIWkUyTQtACc4oQrRw8iNyjKELSOTMyX3T6Lm4zufUoQtsfVYfFRYh57qJsh7pULH5cuaOSV3cprJnDgn6pELSPP5LYtYfFyWPMVrMkJG5SIWPJI9HouTK+7U8BVuPlCFzZPoeC24ro4QhCq7Y//Z"
+            class="card-img-top"
+            alt="covid-virus"
+        /></a>
+        <div class="card-body">
+          <h3 class="card-title">Kick-Covid-19</h3>
+          <p class="card-text"><h5>Tech Includes:</h5> 
+     
+            <ul>
+              <li>•  JavaScript</li>
+              <li>•  React.js </li>
+              <li>•  CSS3 </li>
+              <li>•  Tailwind UI </li>
+              <li>•  Mongo | Mongoose</li>
+              <li>•  Express | Node.js</li>
+              <li>•  Twitter & CDC API</li>
+              <li>•  Axios</li>
+              <li>•  Balsamiq (wireframing)</li>
+             
+            </ul>
+          </p>
           <a
-            href="https://friendliest-friend-finder.herokuapp.com"
-            target="_blank"
+            href="https://github.com/lizlevine/kick-covid-19"
+            target="blank"
+            class="btn btn-outline-info"
+
+            
+            >Github Repo</a
           >
-            <img
-              src="assets/images/brig-bird.png"
-              class="auth-image"
-              alt="Friendly Friend Finder"
-          /></a>
-
-          <h3>Friend Finder</h3>
         </div>
-        <div class="work" id="gytt">
-          <a
-            href="https://get-your-trip-together.herokuapp.com/"
-            target="_blank"
-          >
-            <img
-              src="assets/images/happy_traveler_.jpg"
-              class="auth-image"
-              alt="couple seated on plane"
-          /></a>
-
-          <h3 id="gytt-h3">get your trip together</h3>
+  
+      </div>
+         
+      <div class="card" style="width: 24rem;">
+        <a href="https://friendliest-friend-finder.herokuapp.com" target="_blank"></a>
+        <img src="https://nypdecider.files.wordpress.com/2017/04/don-draper-x-marvelous-mrs-maisel.jpg?quality=80&strip=all&w=646&h=431&crop=1" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title">Funny Friend Finder</h3>
+          
+          <p class="card-text"><h5>Tech Includes: </h5>
+            <ul>
+              <li>•   JavaScript</li>
+              <li>•   HTML5  & CSS3</li>
+              <li>•   jQuery</li>
+              <li>•   Bootstrap</li>
+              <li>•   Express & Path NPM</li>
+              <li>•   API Routes</li>
+              <li>•   HTML Routes</li>
+              
+            </ul>
+          </p>
+          <a href="https://github.com/lizlevine/friendliest-friend-finder" class="btn btn-outline-info">Github Repo</a>
         </div>
-
-        <div class="work" id="bamazon">
-          <a href="https://lizlevine.github.io/bamazon/" target="_blank">
-            <img src="assets/images/bama.png" class="auth-image" alt="Bamazon"
-          /></a>
-
-          <h3>Bamazon</h3>
-        </div>
-
-        <div class="work" id="burger">
-          <a href="https://eat-a-burger-menu.herokuapp.com/" target="_blank">
-            <img
-              src="assets/images/fantasy_burger.png"
-              class="auth-image"
-              alt="Burger"
-          /></a>
-
-          <h3>Burger Cafe</h3>
-        </div>
-
-        <div class="work" id="train">
-          <a href="https://lizlevine.github.io/train-time/" target="_blank">
-            <img
-              src="assets/images/train.jpg"
-              class="auth-image"
-              alt="Train-scheduler"
-          /></a>
-          <h3>All Aboard!</h3>
-        </div>
-        <div class="work" id="safari">
-          <a href="https://lizlevine.github.io/word-guess-game/" target="_blank"
-            ><img
-              src="assets/images/word-guess-game.png"
-              class="auth-image"
-              alt="Serengetti Safari Game"
-          /></a>
-
-          <h3>Serengetti Safari</h3>
-        </div>
-      </section>
+      </div>
+      
+      <div class="card" style="width: 24rem;">
+        <a href="" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-ycUUQ7cRSc1x4PRGV1vYW5y6pbUDGUOcN06CeGRCvRgpNhGe&usqp=CAU" class="card-img-top" alt="spot on rescue" /></a>
+        <div class="card-body">
+         
+          <h3 class="card-title">Spot On Rescue</h3>
+          <p class="card-text"><h5>Tech Includes: </h5>
+          <ul>
+            <li>•  JavaScript</li>
+            <li>•  HTML5 & CSS3</li>
+            <li>•  Bulma CDN</li>
+            <li>•  jQuery </li>
+            <li>•  AJAX </li>
+            <li>•  Petfinder API</li>
+          </ul>
+          </p>
+                   <a href="https://github.com/smogil12/Pet-Project" class="btn btn-outline-info">Github Repo</a>
+      </div>
     </div>
+        </div>
 
-    <section class="sidebar">
+    <!-- BOTTOM ROW BELOW -->
+
+    <div class="flex-container" id="bottom-row">
+     
+      <div class="card" style="width: 24rem;">
+        <a href="https://lizlevine.github.io/trivia-game/" target="_blank"></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSc7dT857qIhOo1iEd_FxO-HJCZ7eDDeIxdr9D42KV3VA_eBEiU&usqp=CAU" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title">Are You a Wine Genius?</h3>
+          <p class="card-text"><h5>Tech Includes: </h5>
+          </p>
+          <ul>
+            <li>• JavaScript (Timers)</li>
+            <li>• jQuery</li>
+            <li>• HTML5</li>
+            <li>• CSS3</li>
+            </ul>
+          <a href="https://github.com/lizlevine/trivia-game" class="btn btn-outline-info">Github Repo</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 24rem;">
+        <a href="https://get-your-trip-together.herokuapp.com/" target="_blank"></a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJO21l61leEKks47REsa2AnU-8g6wSB8fERir8qFCFgC_2c6vG&usqp=CAU" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title">Get Your Trip Together!!</h3>
+          <p class="card-text"><h5>Tech Includes: </h5>
+          </p>
+          <ul>
+            <li>•  JavaScript</li>
+            <li>•  Express Server</li>
+            <li> •  MySQL database</li>
+            <li>•  Sequelize ORM</li>
+            <li>•  Handlebars templating engine </li>
+            <li>•  Bootstrap CDN</li>
+            <li>•  JAWSdb & Heroku, deployment</li>
+            </ul>
+
+          <a href="#" class="btn btn-outline-info">Github Repo</a>
+        </div>
+      </div>
+
+      <div class="card"  style="width: 24rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7-trRfIvO_wrAmSVpV_sH0KHwOIFTyhMhu9VGEjqgp_vXSycc"
+        class=card-img-top alt="..." />
+        
+        <div class="card-body" id="bottom">
+          <h3 class="card-title">CLICK | REWARD</h3>
+          <p class="card-text"><h5>Tech Includes: </h5>
+            <ul>
+              <li>•  React.js (create-react-app)</li>
+              <li>•  JavaScript</li>
+              <li>•  Bootstrap</li>
+              <li>•  CSS3</li>
+
+            </ul>
+          </p>
+          <a href="#" class="btn btn-outline-info">Github Repo</a>
+        </div>
+      </div>
+  </div>
+
+    <footer>
       <div id="connect">
-        <h2>Connect with Me</h2>
         <a href="https://www.linkedin.com/in/elizabethlevine/" target="_blank"
           ><img
-            src="assets/images/linkedIn-64.png"
+            src="assets/images/soft_linkedin.png"
             class="social"
             alt="LinkedIn logo"
         /></a>
-        <a href="https://github.com/lizlevine" target="_blank"
+        <a href="https://github.com/lizlevine/" target="_blank"
           ><img
-            src="assets/images/github-64.png"
+            src="assets/images/octo_github.png"
             class="social"
             alt="Github logo"
         /></a>
         <a
-          href="https://stackoverflow.com/users/11063676/liz-l?tab=profile"
+          href="mailto:lizlevine.rigie@gmail.com" 
           target="_blank"
           ><img
-            src="assets/images/stack-64.png"
+            src="assets/images/email_2.png"
             class="social"
-            alt="Stack Overflow logo"
+            alt="envelope"
         /></a>
-      </div>
-    </section>
-
-    <footer id="projectFooter">
-      <div class="container">
-        &copy; Copyright 2020 Elizabeth Levine
+        <div class="copyright">
+          &copy; Copyright 2020 Elizabeth Levine
+        </div>
       </div>
     </footer>
   </body>

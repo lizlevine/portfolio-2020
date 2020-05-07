@@ -7,8 +7,9 @@ body {
   font-size: 18px;
   line-height: 34px;
   /* font-family: "Arial", "Helvetica Neue", Helvetica, Sans-serif; */
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
   color: #777;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -17,13 +18,6 @@ body {
   margin: 0 auto;
   clear: both;
   bottom: 0;
-}
-
-.subtitle {
-  margin: 0;
-  font-size: 25px;
-  line-height: 3.75;
-  margin-top: 80px;
 }
 
 h1,
@@ -37,11 +31,13 @@ p:last-child {
   margin-bottom: 0;
 }
 
+
 h1,
 h2,
 h3 {
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -50,21 +46,94 @@ h1 {
   border-bottom: 3px solid #ddd;
   padding-bottom: 20px;
 }
+
 h2,
 h3 {
   font-size: 22px;
 }
 
 .skills {
-  font-weight: bold;
+  font-weight: 800;
   color: coral;
 }
 
 #frontEnd {
-  margin-top: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
+#backEnd {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif; 
+}
+
+.title {
+  margin-top: 80px;
+  font-size: 32px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 28px;
+  line-height: 3.75;
+  /* margin-top: 80px; */
+  padding-top: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* #btn {
+  background-color: lightgrey;
+  height: 30px;
+  width: 40px;
+  color: black;
+} */
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active {
+  background-color: #8064a2;
+  border: 2px solid #f2dfdf;
+  color: #f2dfdf;
+  text-align: center;
+  align-items: center;
+}
+
+/* #buttons {
+  background-color: lightcyan;
+  border: 2px solid darkgrey;
+  color: ;
+  text-align: center;
+  align-items: center;
+} */
+
 /* header */
+
+/* new start 5/5/2020 */
+
+/* .navbar-brand {
+  margin-left: 45px;
+  font-size: 25px;
+} */
+
+/* .navbar {
+  height: 80px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+} */
 
 #navbar {
   background: lightcyan;
@@ -75,21 +144,45 @@ h3 {
   border-bottom: 2px solid #ccc;
   position: fixed;
   width: 100%;
+  /* font-family: "Julius Sans One", sans-serif; */
 }
 
+.menu {
+  padding-top: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border-left: 1px solid #efefef;
+}
+
+.menu:hover {
+cursor: pointer;
+transform: scale(1.1);
+}
+
+
 #logo {
-  width: 250px;
-  height: 90px;
+  width: 400px;
+  height: 100px;
   background: lightcyan;
   float: left;
-  /* font-family: "Georgia", Times, Times New Roman, serif; */
-  font-family: "Julius Sans One", sans-serif;
-  /* text-align: center; */
+  /* font-family: "Julius Sans One", sans-serif; */
   line-height: 90px;
-  color: #999;
-  font-weight: 700;
-  font-size: 29px;
+  color: coral;
+  font-weight: 400;
+  font-size: 45px;
+  /* padding-top: 20px; */
+  padding: 20px 0 30px 0;
   text-decoration: none;
+  font-family: "Shadows Into Light", cursive;
+
+  /* font-family: "Darker Grotesque", sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Quicksand", sans-serif; */
+}
+
+#logo:hover {
+  cursor: pointer;
+  transform: scale(1.07);
 }
 
 a {
@@ -103,6 +196,7 @@ a {
 nav {
   float: right;
   margin-top: 25px;
+ 
 }
 
 nav a {
@@ -113,11 +207,15 @@ nav a {
   border-left: 1px solid #efefef;
   padding-left: 15px;
   line-height: 18px;
+  font-weight: 800;
+  font-size: 20px;
 }
 /* used a pseudostyle here!! */
 nav a:hover {
   font-size: 19.75px;
   color: coral;
+  scale: 1.12;
+  text-decoration: none;
 }
 
 nav a:first-child {
@@ -125,9 +223,15 @@ nav a:first-child {
 }
 
 /* main */
+
+#about-container {
+  box-shadow: inset 0 0 10px lightgray;
+  margin-bottom: 165px;
+}
 #main-container {
   padding-top: 130px;
 }
+
 .main-container {
   background-color: #ffffff;
   padding: 30px;
@@ -154,66 +258,134 @@ h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
+  font-family: "Montserrat", sans-serif;
 }
 
-#footnote {
-  font-size: 26px;
-}
+
 
 /* footer */
 
+.copyright {
+  /* padding: 10px; */
+  /* margin-top: 20px; */
+  font-size: 22px;
+  /* padding-top: 5px; */
+  font-weight: 600;
+}
+
 footer {
-  background: #666;
-  color: #fff;
+  background: #dedede;
+  height: 150px;
+  /* background: #f2dfdf; */
+  /* color: #8064a2; */
+  color: coral;
   padding: 30px 0;
   clear: both;
   border-top: 8px solid lightcyan;
-  color: #ccc;
+  /* color: #ccc; */
   font-size: 12px;
   text-align: center;
   width: 100%;
   position: fixed;
-  width: 100%;
   bottom: 0px;
   left: 0px;
+  font-family: "Shadows Into Light", cursive;
 }
 
 /* projects */
 
-/* #project-container {
-  margin-bottom: 40px;
-} */
-.work {
+#project-container {
+  margin-bottom: 100px;
+}
+
+.flex-container {
+  display: flex;
+  /* margin-bottom: 70px; */
+}
+
+#bottom-row {
+  margin-bottom: 180px;
+}
+
+#top-row {
+  margin-top: 10px;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px lightgray;
+  cursor: pointer;
+  border: 4px solid #f2dfdf;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-img-top {
+  width: 100%;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.social {
+
+  padding-right: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+
+}
+.social:last-child {
+  margin-right: 0;
+}
+
+.social:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* .work {
   width: 274px;
+  
   height: 225px;
   overflow: auto;
   position: relative;
   float: left;
   margin: 20px 0 25px;
   padding-bottom: 0;
-  /* clear: right; */
-}
+  
+} */
 
-.work:nth-child(odd) {
+/* .work img:hover {
+  transform: scale(1.19);
+} */
+
+/* .work:nth-child(odd) {
   margin-right: 40px;
-}
+} */
 
-.work img {
+/* .work img {
   width: 100%;
   border: 0 none;
   cursor: pointer;
-}
+} */
 
-.work img:hover {
-  transform: scale(1.19);
-}
-
-.work h3 {
+/* .work h3 {
   border-bottom: 0;
   background: lightcyan;
-
-  /* color: #fff; */
-  /* color: #999; */
   text-align: center;
   position: absolute;
   bottom: 20px;
@@ -223,91 +395,40 @@ footer {
   margin-bottom: 0;
   font-weight: 300;
   cursor: pointer;
-}
+} */
 
-/* created these ids as a fix for odd random spacing/overlap */
-#dog {
-  /* margin-right: 38px; */
-  /* margin: 8px; */
-  margin-left: 15px;
-  margin-right: 40px;
-}
 
-#wine-h3 {
-  font-size: 18px;
-}
 
-#wine {
-  margin-bottom: 30px;
-}
 
-#gytt {
-  margin-right: 15px;
-  height: 200px;
-}
 
-#gytt-h3 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 18px;
-  z-index: 0;
-}
 
-#kickCovid {
-  margin-right: 30px;
-}
-
-#bamazon {
-  margin-left: 20px;
-}
-
-#burger {
-  /* margin-right: 20px; */
-  margin: 8px;
-}
-
-#train {
-  /* margin: 15px; */
-  margin: 8px;
-  margin-left: 20px;
-}
-
-#safari {
-  /* margin: 15px; */
-
-  margin: 8px;
-  margin-left: 20px;
-}
 
 /* contact */
 
-#contact-form ul {
+/* #contact-form ul {
   margin-bottom: 50px;
 }
-
 #contact-form li {
   margin-bottom: 10px;
-}
+} */
 
 /* created this id as a "fix" for floating button and footer (footer floats only on this page) */
-#button {
+/* #button {
   margin-bottom: 100px;
 }
-
 #button:hover {
   transform: scale(1.12);
   background-color: coral;
-}
+} */
 
-label,
+/* label,
 input [type="text"],
 input [type="email"],
 textarea {
   display: block;
   width: 100%;
-}
-input[type="text"],
+} */
+/* input[type="text"],
 input[type="email"],
 textarea {
   height: 35px;
@@ -316,20 +437,20 @@ textarea {
   font-size: 14px;
   width: 100%;
   cursor: pointer;
-}
+} */
 
-textarea {
+/* textarea {
   height: 200px;
-}
+} */
 
-input[type="submit"] {
+/* input[type="submit"] {
   background: lightcyan;
   border: 1px solid lightgray;
   color: #999;
   font-size: 18px;
   padding: 10px 30px;
   cursor: pointer;
-}
+} */
 
 /* MEDIA QUERIES */
 
@@ -367,7 +488,7 @@ input[type="submit"] {
     padding: 20px;
     width: 100%;
   }
-}
+
 .work:nth-child(both) {
   float: right;
 }
@@ -414,20 +535,9 @@ input[type="submit"] {
     padding: 10px;
   }
 
-  .social {
-    width: 25px;
-    height: 25px;
-    margin-top: 1px;
-    padding-right: 4px;
-    margin-right: 8px;
-    cursor: pointer;
-  }
-  .social:last-child {
-    margin-right: 0;
-  }
-}
+  
 
-.sidebar {
+/* .sidebar {
   background: #fff;
   border-bottom: 2px solid #eee;
   color: #444444;
@@ -441,8 +551,8 @@ input[type="submit"] {
   margin-right: 90px;
   line-height: 22px;
   cursor: pointer;
-}
+} */
 
-.sidebar img:hover {
+/* .sidebar img:hover {
   transform: scale(1.2);
-}
+} */
