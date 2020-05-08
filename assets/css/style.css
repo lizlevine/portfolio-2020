@@ -272,10 +272,12 @@ footer {
 
 #project-container {
   margin-bottom: 100px;
+  justify-content: center;
 }
 
 .flex-container {
   display: flex;
+  justify-content: center;
 
 }
 
