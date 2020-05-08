@@ -10,6 +10,8 @@ body {
   /* font-family: "Julius Sans One", sans-serif; */
   color: #777;
   font-family: "Montserrat", sans-serif;
+  background-image: url("../images/brickwall_lg.png");
+  /* background-image: url("../images/brick_2.png"); */
 }
 
 .container {
