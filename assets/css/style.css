@@ -55,7 +55,7 @@ h3 {
 }
 
 .skills {
-  font-weight: 800;
+  font-weight: 600;
   color: coral;
 }
 
@@ -170,7 +170,8 @@ transform: scale(1.1);
   float: left;
   /* font-family: "Julius Sans One", sans-serif; */
   line-height: 90px;
-  color: coral;
+  /* color: coral; */
+  color: dimgrey;
   font-weight: 400;
   font-size: 45px;
   /* padding-top: 20px; */
@@ -185,7 +186,9 @@ transform: scale(1.1);
 
 #logo:hover {
   cursor: pointer;
-  transform: scale(1.07);
+  transform: scale(1.08);
+  color: coral;
+  
 }
 
 a {
@@ -210,14 +213,14 @@ nav a {
   border-left: 1px solid #efefef;
   padding-left: 15px;
   line-height: 18px;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 22px;
 }
 
 nav a:hover {
   font-size: 19.75px;
   color: coral;
-  scale: 1.12;
+  scale: (1.02);
   text-decoration: none;
 }
 
@@ -231,6 +234,7 @@ nav a:first-child {
   /* box-shadow: inset 0 0 10px lightgray; */
   box-shadow: inset 0 0 10px darkgray;
   border: 1px solid #f2dfdf;
+  /* border: 2px solid mistyrose; */
   margin-bottom: 165px;
 }
 #main-container {
@@ -254,14 +258,12 @@ nav a:first-child {
   margin-top: 70px;
   /* box-shadow: inset 0 0 10px lightgray; */
   box-shadow: inset 0 0 10px darkgray;
-  border: 1px solid #f2dfdf;
- 
-  padding-left: 50px;
+  /* border: 1px solid #f2dfdf; */
+  border: 1px solid mistyrose;
+  /* border: 1px solid thistle; */
+  padding:  0 0 40px 50px;
   margin-left: 40px;
- 
 }
-
-
 
 .auth-image {
   width: 200px;
@@ -279,8 +281,6 @@ h2 {
   line-height: 22px;
   font-family: "Montserrat", sans-serif;
 }
-
-
 
 /* footer */
 
@@ -317,8 +317,6 @@ footer {
 #homepage-footer {
   margin-top: 100px; 
 }
-
-
 
 /* projects */
 
@@ -398,7 +396,10 @@ footer {
 
 .card-img-top:hover {
   transform: scale(1.1);
+  background-color: #f2dfdf;
+  
 }
+
 
 .social {
   padding-right: 4px;
@@ -454,12 +455,6 @@ footer {
   font-weight: 300;
   cursor: pointer;
 } */
-
-
-
-
-
-
 
 /* contact */
 
