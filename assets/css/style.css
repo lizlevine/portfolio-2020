@@ -244,6 +244,7 @@ nav a:first-child {
   font-size: 22px;
   font-weight: 700;
   font-family: "Shadows Into Light", cursive;
+
     
 }
 
@@ -427,12 +428,23 @@ textarea {
     padding: 40px;
     background-color: cornsilk;
   }
-}
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
 
 @media only screen and (max-width: 768px) {
   .main-container {
     max-width: 100%;
     background-color: lightgrey;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: palegoldenrod;
+  
   }
 
   #main-container {
@@ -453,6 +465,10 @@ textarea {
 
 .work:nth-child(both) {
   float: right;
+}
+
+.card:nth-child(both) {
+  float:right;
 }
 
 #contact-form {
@@ -492,6 +508,17 @@ textarea {
   .work img {
     float: left;
   }
+
+  .card {
+    float: left;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: mistyrose;
+
+
 
   .container {
     padding: 10px;
