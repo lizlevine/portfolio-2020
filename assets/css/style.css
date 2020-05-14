@@ -83,9 +83,12 @@ li {
 
 
 .title {
-  margin-top: 30px;
+  margin-top: 30px 15px 5px 0;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+ padding-top: 30px;
+ padding-right: 30px;
 }
 
 .subtitle {
@@ -200,6 +203,7 @@ nav a:first-child {
   /* border: 2px solid lavenderblush; */
   margin-bottom: 165px;
   margin-right: 55px;
+  padding-right: 20px;
 }
 #main-container {
   padding-top: 130px;
