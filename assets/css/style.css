@@ -241,6 +241,14 @@ nav a:first-child {
   margin-right: 25px;
 }
 
+.project-margin {
+  margin-bottom: 95px;
+}
+
+.project-margin-2 {
+  margin-bottom: 50px;
+}
+
 /* footer */
 
 .copyright {
