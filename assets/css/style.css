@@ -130,11 +130,6 @@ p {
   border-left: 1px solid #efefef;
 }
 
-/* .menu:hover {
-cursor: pointer;
-transform: scale(1.009);
-} */
-
 
 #logo {
   width: 400px;
@@ -281,7 +276,7 @@ background-color: #f2dfdf;
 }
 
 footer {
-  /* background: #dedede; */
+
   background: whitesmoke;
   /* background: seashell; */
   height: 140px;
@@ -295,7 +290,7 @@ footer {
   position: fixed;
   bottom: 0px;
   left: 0px;
-  /* font-family: "Shadows Into Light", cursive; */
+ 
 }
 
 #homepage-footer {
