@@ -186,7 +186,7 @@ nav a:hover {
   font-size: 22.5px;
   color: tomato;
   text-decoration: none;
-  /* transform:scale(0.9); */
+
 }
 
 nav a:first-child {
@@ -200,7 +200,6 @@ nav a:first-child {
   /* box-shadow: 4px 8px 8px -8px black; */
   border: 4.0px solid mistyrose;
   box-shadow: 3px 8px 8px -8px black;
-  /* border: 2px solid lavenderblush; */
   margin-bottom: 165px;
   margin-right: 55px;
   padding-right: 20px;
@@ -215,7 +214,6 @@ nav a:first-child {
   padding: 30px;
   margin: 0 0 40px 0;
   width: 100%;
-  /* max-width: 960px; */
   width: 1000px;
   float: left;
   border: 1px solid #ddd;
@@ -224,13 +222,9 @@ nav a:first-child {
 
 #home-container {
   margin: 50px 0 180px 40px;
-  /* box-shadow: inset 0 0 10px lightgray; */
   box-shadow: 3px 8px 8px -8px black;
   /* border: 1px solid #f2dfdf; */
-  border: 4.0px solid mistyrose;
-  /* border: 2.5px solid lavenderblush; */
   padding:  0 0 50px 50px;
-  /* margin-left: 40px; */
 }
 
 .auth-image {
