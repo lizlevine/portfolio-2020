@@ -184,6 +184,7 @@ nav a {
 
 nav a:hover {
   /* font-size: 22.5px; */
+  transform: scale(1.05);
   color: tomato;
   text-decoration: none;
 
