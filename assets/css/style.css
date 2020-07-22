@@ -364,7 +364,8 @@ footer {
 }
 
 .card:hover{ 
-  transform: scale(1.002); 
+  /* transform: scale(1.002);  */
+  transform: scale(1.004); 
   /* background: azure; */
   /* background-color: whitesmoke; */
    /* box-shadow: inset 0 0 10px darkgray; */
