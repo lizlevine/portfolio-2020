@@ -183,7 +183,7 @@ nav a {
 }
 
 nav a:hover {
-  /* font-size: 22.5px; */
+
   transform: scale(1.05);
   color: tomato;
   text-decoration: none;
@@ -204,6 +204,7 @@ nav a:first-child {
   margin-bottom: 165px;
   margin-right: 55px;
   padding-right: 20px;
+
 }
 #main-container {
   padding-top: 130px;
@@ -246,8 +247,6 @@ nav a:first-child {
 
 .btn-outline-info {
 margin: 35px;
-transform: scale(1.1);
-background-color: #f2dfdf;
 }
 
 
@@ -364,11 +363,9 @@ footer {
 }
 
 .card:hover{ 
-  /* transform: scale(1.002);  */
-  transform: scale(1.004); 
-  /* background: azure; */
+  transform: scale(1.001); 
+  background: azure;
   /* background-color: whitesmoke; */
-   /* box-shadow: inset 0 0 10px darkgray; */
     box-shadow: 5px 8px 8px -8px black;
     /* box-shadow: 5px 8px 8px -8px #777; */
 
