@@ -362,7 +362,7 @@ footer {
 }
 
 .card:hover{ 
-  transform: scale(1.001); 
+  /* transform: scale(1.001);  */
   background-color: whitesmoke;
     box-shadow: 5px 8px 8px -8px black;
     /* box-shadow: 5px 8px 8px -8px #777; */
@@ -383,7 +383,7 @@ footer {
 }
 
 .card-img-top:hover {
-  transform: scale(1.5);
+  transform: scale(1.09);
   background-color: #f2dfdf;
 }
 .social {
