@@ -159,8 +159,7 @@ a {
 
 a:hover{
   cursor: pointer;
-  color: cadetblue;
- 
+  color: red;
 }
 
 nav {
@@ -384,7 +383,7 @@ footer {
 }
 
 .card-img-top:hover {
-  transform: scale(1.1);
+  transform: scale(1.5);
   background-color: #f2dfdf;
 }
 .social {
