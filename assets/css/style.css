@@ -506,78 +506,84 @@ textarea {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 980px) {
+/* @media only screen and (max-width: 980px) {
   #navbar {
     margin-right: 10px;
     padding-right: 20px;
     margin-bottom: 0;
-  }
+  } */
 
-  .main-container {
+  /* .main-container {
     padding: 40px;
     background-color: cornsilk;
-  }
+  } */
 
-  .flex-container {
+  /* .flex-container {
     display: flex;
     justify-content: center;
-    background-color: gainsboro;
+    background-color: gainsboro; */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .main-container {
     max-width: 100%;
     background-color: lightgrey;
-  }
+  } */
 
-  .flex-container {
+  /* .flex-container {
     display: flex;
     justify-content: center;
     background-color: palegoldenrod;
   
-  }
+  } */
 
-  #main-container {
+  /* #main-container {
     width: 100%;
     overflow: auto;
     padding-top: 20px;
-  }
+  } */
 
-  #navbar {
+  /* #navbar {
     padding-right: 20px;
     width: 100%;
-  }
+  } */
 
-  .container {
+  /* .container {
     padding: 20px;
     width: 100%;
-  }
+  } */
 
-.work:nth-child(both) {
+/* .work:nth-child(both) {
   float: right;
-}
+} */
 
-.card:nth-child(both) {
+/* .card:nth-child(both) {
   float:right;
-}
+} */
 
-#contact-form {
+/* #contact-form {
   margin: 30px;
-}
+} */
 
-#contact {
+/* #contact {
   margin-left: 30px;
-}
+} */
 
-@media only screen and (max-width: 640px) {
+/* @media only screen and (max-width: 640px) {
   #navbar {
     position: static;
     margin-bottom: 20px;
     padding-right: 20px;
     width: 100%;
     text-align: center;
-  }
+  } */
 
-  .container {
+  /* @media (min-width: 600px) 
+  p {
+    font-size: 2.25rem;
+
+  } */
+
+  /* .container {
     margin-right: 20px;
   }
 
@@ -611,5 +617,5 @@ textarea {
 
   .container {
     padding: 10px;
-  }
+  } */
 
