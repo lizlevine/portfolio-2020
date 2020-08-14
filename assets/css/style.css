@@ -338,6 +338,7 @@ footer {
   margin-left: 90px;
   margin-right: 90px;
   box-shadow: inset 0 0 10px darkgray;
+  background-color: white;
   /* box-shadow: inset 0 0 10px black; */
   /* box-shadow: 5px 8px 8px -8px black; */
   cursor: pointer;
@@ -382,7 +383,14 @@ footer {
 .card-title {
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
+  padding-top: 20px;
 }
+
+/* .card-title-trip {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  padding-top: 15px;
+} */
 .social:last-child {
   margin-right: 0;
 }
@@ -494,6 +502,26 @@ textarea {
   h1 {
     font-size: small;
   }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  ...;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  ...;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  ...;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  ...;
 }
 
 /* @media only screen and (max-width: 980px) {
