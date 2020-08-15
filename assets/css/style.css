@@ -513,7 +513,8 @@ textarea {
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+/* @media (max-width: 991.98px) { */
+@media (max-width: 1000px) {
   #navbar {
     background: silver;
     margin: 80 0 30px;
