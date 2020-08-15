@@ -644,7 +644,7 @@ textarea {
     position: fixed;
     width: 100%;
     margin: 80 0 30px;
-    height: 120px;
+    height: 160px;
   }
 
   #logo {
@@ -669,6 +669,10 @@ textarea {
 @media (max-width: 1199.98px) {
   .phone-card {
     display: none;
+  }
+
+  #logo {
+    background: silver;
   }
 }
 
