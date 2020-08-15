@@ -529,24 +529,22 @@ textarea {
 
   nav a {
     color: darkslategrey;
-    text-decoration: none;
-    margin-left: 15px;
-    display: inline-block;
-    border-left: 1px solid #efefef;
-    padding-left: 12px;
-    line-height: 18px;
-    font-weight: 900;
     font-size: 20px;
   }
 
   #home-container {
-    margin: 150px 110px 88px 0;
+    margin: 110px 310px 88px 0;
     box-shadow: 3px 8px 8px -8px black;
     /* border: 1px solid #f2dfdf; */
     padding: 0 0 25px 25px;
-    height: 800px;
-    width: 700px;
+    height: 900px;
+    width: 600px;
   }
+
+  #home-button {
+    margin: 20px 180px;
+  }
+
   .title {
     font-size: 20px;
   }
@@ -558,7 +556,7 @@ textarea {
     float: left;
     line-height: 50px;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .flex-container {
