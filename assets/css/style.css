@@ -591,6 +591,24 @@ textarea {
     bottom: 0;
   }
 
+  #about-container {
+    box-shadow: inset 0 0 10px lightgray;
+    /* box-shadow: 4px 8px 8px -8px black; */
+    border: 4px solid mistyrose;
+    box-shadow: 3px 8px 8px -8px black;
+    margin-bottom: 165px;
+    margin-right: 55px;
+    padding-right: 20px;
+    font-size: 20px;
+    height: 900px;
+    width: 600px;
+    margin: 110px 310px 88px 0;
+  }
+
+  .phone-card {
+    display: none;
+  }
+
   .social {
     padding-right: 2px;
     padding-bottom: 30px;
