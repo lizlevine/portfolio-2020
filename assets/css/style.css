@@ -628,8 +628,16 @@ textarea {
 }
 
 /* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1800px) {
+  .phone-card {
+    display: none;
+  }
+}
 @media (max-width: 1199.98px) {
-  ...;
+  .phone-card {
+    display: none;
+  }
 }
 
 /* @media only screen and (max-width: 980px) {
