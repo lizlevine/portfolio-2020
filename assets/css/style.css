@@ -492,9 +492,25 @@ textarea {
   h1 {
     font-size: medium;
   }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container div:first-child {
+    order: 1;
+  }
 }
 
 @media (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container div:first-child {
+    order: 1;
+  }
+
   p {
     font-size: 1.25rem;
   }
@@ -561,7 +577,11 @@ textarea {
   }
 
   .flex-container {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container div:first-child {
+    order: 1;
   }
 
   .card {
