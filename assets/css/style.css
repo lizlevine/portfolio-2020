@@ -38,7 +38,6 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: 500px;
-  /* color: coral; */
   color: dimgrey;
 }
 
@@ -120,7 +119,6 @@ p {
   padding-top: 30px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  /* border-left: 1px solid #efefef; */
   border-left: 1px solid lightgray;
 }
 
@@ -386,11 +384,7 @@ footer {
   padding-top: 20px;
 }
 
-/* .card-title-trip {
-  font-family: "Montserrat", sans-serif;
-  font-size: 28px;
-  padding-top: 15px;
-} */
+
 .social:last-child {
   margin-right: 0;
 }
