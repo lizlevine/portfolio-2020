@@ -475,7 +475,213 @@ textarea {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 800px) {
+  /* Medium devices (tablets, less than 992px) */
+  /* @media (max-width: 991.98px) { */
+  /* @media (max-width: 1000px) { */
+
+/* 
+Large devices (desktops, less than 1200px) { */
+  @media only screen and (max-width: 1700px) { 
+    
+  .phone-card {
+    display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container div:first-child {
+    order: 1;
+  }
+}
+
+/* @media (max-width: 2222px) { */
+/* @media only screen and (max-width: 2222px) { */ 
+  /* .phone-card {
+    display: none;
+  } */
+
+  /* #navbar {
+    background: silver;
+    margin: 80 0 30px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    margin: 80 0 30px;
+    height: 105px;
+  } */
+
+  /* nav a {
+    color: darkslategrey;
+    font-size: 20px;
+  } */
+
+  /* /* #logo {
+    width: 50px;
+    height: 30px;
+    background: silver;
+    float: left;
+    line-height: 45px;
+    font-weight: 400;
+    font-size: 40px;
+  } */
+
+/* @media only screen and(max-width: 1199.98px) {
+  .phone-card {
+    display: none;
+  }
+
+  #logo {
+    background: silver;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container div:first-child {
+    order: 1;
+  }
+} */
+
+
+@media only screen and (max-width: 1000px) {
+  /* #navbar {
+    background: silver;
+    margin: 80 0 30px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    margin: 80 0 30px;
+    height: 115px;
+  } */
+
+  /* #navbar {
+    background: lightcyan;
+    margin: 80 0 30px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    height: 105px;
+  } */
+
+  /* nav a {
+    color: darkslategrey;
+    font-size: 20px;
+  } */
+
+  #home-container {
+    margin: 110px 310px 88px 0;
+    box-shadow: 3px 8px 8px -8px black;
+    /* border: 1px solid #f2dfdf; */
+    padding: 0 0 25px 25px;
+    height: 900px;
+    width: 600px;
+  }
+
+  #home-button {
+    margin: 20px 180px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  #logo {
+    width: 20px;
+    height: 10px;
+    background: lightcyan;
+    float: left;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+
+.card {
+  align-items: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 500px;
+  /* padding: 50px 30px 20px 20px;
+margin-top: 200px;
+margin-left: 90px;
+margin-right: 90px; */
+  box-shadow: inset 0 0 10px darkgray;
+  background-color: white;
+  /* box-shadow: inset 0 0 10px black; */
+  /* box-shadow: 5px 8px 8px -8px black; */
+  cursor: pointer;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width:100%;
+    height:auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.flex-container div:first-child {
+  order: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 666px;
+  margin: 0 auto;
+  clear: both;
+  bottom: 0;
+}
+
+#about-container {
+  box-shadow: inset 0 0 10px lightgray;
+  /* box-shadow: 4px 8px 8px -8px black; */
+  border: 4px solid mistyrose;
+  box-shadow: 3px 8px 8px -8px black;
+  margin-bottom: 165px;
+  margin-right: 55px;
+  padding-right: 20px;
+  font-size: 20px;
+  height: 900px;
+  width: 600px;
+  margin: 110px 310px 88px 0;
+}
+
+.phone-card {
+  display: none;
+}
+
+.social {
+  padding-right: 2px;
+  padding-bottom: 40px;
+  margin-right: 4px;
+  cursor: pointer;
+  height: 80px;
+  width: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+}
+}
+
+
+
+@media only screen and (max-width: 800px) {
   p {
     font-size: 1.5rem;
     line-height: 1.5;
@@ -492,7 +698,23 @@ textarea {
   .flex-container div:first-child {
     order: 1;
   }
+
+  .phone-card {
+    display: none;
+  }
 }
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { */
+  @media only screen and (max-width: 767.98px) {
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .flex-container div:first-child {
+      order: 1;
+    }
+
 
 @media (max-width: 600px) {
   .flex-container {
@@ -510,190 +732,20 @@ textarea {
   h1 {
     font-size: small;
   }
+
+  .phone-card {
+    display: none;
+  }
 }
+
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) { */
-@media only screen and (max-width: 575.98px) {
-}
-
-/* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) { */
-@media only screen and (max-width: 767.98px) {
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-container div:first-child {
-    order: 1;
+  @media only screen and (max-width: 575.98px) {
   }
 
-  /* Medium devices (tablets, less than 992px) */
-  /* @media (max-width: 991.98px) { */
-  /* @media (max-width: 1000px) { */
-  @media only screen and (max-width: 1000px) {
-    #navbar {
-      background: silver;
-      margin: 80 0 30px;
-      z-index: 99;
-      color: #fff;
-      overflow: auto;
-      border-bottom: 2px solid #ccc;
-      position: fixed;
-      width: 100%;
-      margin: 80 0 30px;
-      height: 130px;
-    }
 
-    nav a {
-      color: darkslategrey;
-      font-size: 20px;
-    }
-
-    #home-container {
-      margin: 110px 310px 88px 0;
-      box-shadow: 3px 8px 8px -8px black;
-      /* border: 1px solid #f2dfdf; */
-      padding: 0 0 25px 25px;
-      height: 900px;
-      width: 600px;
-    }
-
-    #home-button {
-      margin: 20px 180px;
-    }
-
-    .title {
-      font-size: 20px;
-    }
-
-    #logo {
-      width: 50px;
-      height: 30px;
-      background: silver;
-      float: left;
-      line-height: 50px;
-      font-weight: 400;
-      font-size: 50px;
-    }
-  }
-
-  .card {
-    align-items: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 500px;
-    /* padding: 50px 30px 20px 20px;
-  margin-top: 200px;
-  margin-left: 90px;
-  margin-right: 90px; */
-    box-shadow: inset 0 0 10px darkgray;
-    background-color: white;
-    /* box-shadow: inset 0 0 10px black; */
-    /* box-shadow: 5px 8px 8px -8px black; */
-    cursor: pointer;
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-
-  .container {
-    width: 100%;
-    max-width: 666px;
-    margin: 0 auto;
-    clear: both;
-    bottom: 0;
-  }
-
-  #about-container {
-    box-shadow: inset 0 0 10px lightgray;
-    /* box-shadow: 4px 8px 8px -8px black; */
-    border: 4px solid mistyrose;
-    box-shadow: 3px 8px 8px -8px black;
-    margin-bottom: 165px;
-    margin-right: 55px;
-    padding-right: 20px;
-    font-size: 20px;
-    height: 900px;
-    width: 600px;
-    margin: 110px 310px 88px 0;
-  }
-
-  .phone-card {
-    display: none;
-  }
-
-  .social {
-    padding-right: 2px;
-    padding-bottom: 30px;
-    margin-right: 4px;
-    /* margin-bottom: 30px; */
-    cursor: pointer;
-    height: 70px;
-    width: 50px;
-  }
-
-  footer {
-    width: 100%;
-    height: 100px;
-    background-color: goldenrod;
-  }
-}
-
-/* Large devices (desktops, less than 1200px) */
-
-/* @media (max-width: 2222px) { */
-@media only screen and (max-width: 2222px) {
-  .phone-card {
-    display: none;
-  }
-
-  #navbar {
-    background: silver;
-    margin: 80 0 30px;
-    z-index: 99;
-    color: #fff;
-    overflow: auto;
-    border-bottom: 2px solid #ccc;
-    position: fixed;
-    width: 100%;
-    margin: 80 0 30px;
-    height: 105px;
-  }
-
-  nav a {
-    color: darkslategrey;
-    font-size: 20px;
-  }
-
-  #logo {
-    width: 50px;
-    height: 30px;
-    background: silver;
-    float: left;
-    line-height: 45px;
-    font-weight: 400;
-    font-size: 40px;
-  }
-}
-@media (max-width: 1199.98px) {
-  .phone-card {
-    display: none;
-  }
-
-  #logo {
-    background: silver;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-container div:first-child {
-    order: 1;
-  }
-}
 
 /* @media only screen and (max-width: 980px) {
   #navbar {
