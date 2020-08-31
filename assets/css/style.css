@@ -482,7 +482,7 @@ textarea {
 /* 
 Large devices (desktops, less than 1200px) { */
   @media only screen and (max-width: 1700px) { 
-    
+
   .phone-card {
     display: none;
   }
@@ -563,7 +563,7 @@ Large devices (desktops, less than 1200px) { */
     height: 115px;
   } */
 
-  /* #navbar {
+  #navbar {
     background: lightcyan;
     margin: 80 0 30px;
     z-index: 99;
@@ -573,12 +573,14 @@ Large devices (desktops, less than 1200px) { */
     position: fixed;
     width: 100%;
     height: 105px;
-  } */
+  }
 
   /* nav a {
     color: darkslategrey;
     font-size: 20px;
   } */
+
+  
 
   #home-container {
     margin: 110px 310px 88px 0;
