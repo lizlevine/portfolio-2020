@@ -194,9 +194,21 @@ nav a:first-child {
   margin-right: 55px;
   padding-right: 20px;
 }
+
+#about-container:hover {
+  background-color: whitesmoke;
+  box-shadow: 5px 8px 8px -8px black;
+}
+
+
 #main-container {
   padding-top: 130px;
   margin-bottom: 150px;
+}
+
+.main-container:hover {
+  background-color: whitesmoke;
+  box-shadow: 5px 8px 8px -8px black;
 }
 
 .main-container {
@@ -637,7 +649,7 @@ margin-right: 90px; */
   flex-direction: column;
 }
 .flex-container div:first-child {
-  order: 1;
+  order: 2;
 }
 
 .container {
