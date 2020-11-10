@@ -375,7 +375,7 @@ footer {
 }
 
 .card-img-top:hover {
-  transform: scale(1.09);
+  transform: scale(1.01);
   background-color: #f2dfdf;
 }
 .social {
